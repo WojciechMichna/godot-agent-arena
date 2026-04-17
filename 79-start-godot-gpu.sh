@@ -9,4 +9,4 @@ if [ -d /mnt/godot_projects ]; then
   cp -R /mnt/godot_projects/* /root
 fi
 
-nohup vglrun /opt/godot > /dev/null 2>&1 &
+nohup vglrun /opt/godot --maximized > /dev/null 2>&1 &

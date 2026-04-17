@@ -6,4 +6,4 @@ if [ -d /mnt/godot_projects ]; then
   cp -R /mnt/godot_projects/* /root
 fi
 
-nohup /opt/godot > /dev/null 2>&1 &
+nohup /opt/godot --maximized > /dev/null 2>&1 &

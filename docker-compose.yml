@@ -1,0 +1,19 @@
+services:
+  godot:
+    image: 0wojciechmichna/vnc_godot:0.1
+    environment:
+      - VNC_PASSWORD=123123
+    ports:
+      - "9488-9499:9488"
+      - "5900-5911:5900"
+    volumes:
+      - ./godot_projects:/mnt/godot_projects
+    restart: unless-stopped
+
+  guacamole:
+    image: oznu/guacamole
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./guacamole_config:/config
+    restart: unless-stopped

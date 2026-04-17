@@ -53,8 +53,6 @@ COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
-RUN wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US" && tar xJf firefox.tar.bz2
-
 RUN wget -q https://github.com/godotengine/godot/releases/download/4.6.2-stable/Godot_v4.6.2-stable_linux.x86_64.zip -O /tmp/godot.zip && \
     unzip /tmp/godot.zip -d /opt && \
     rm /tmp/godot.zip && \
@@ -66,6 +64,8 @@ COPY 79-start-godot.sh /etc/docker_boot.d/79-start-godot.sh
 RUN chmod +x /etc/docker_boot.d/79-start-godot.sh
 
 EXPOSE 9488
+
+EXPOSE 5900
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 

@@ -13,6 +13,6 @@ export DISPLAY=:99
 nohup openbox-session > /dev/null 2>&1 &
 
 # 4. x11vnc and websockify
-nohup x11vnc -display :99 -rfbauth /root/.vnc/passwd -rfbport 5900 -forever -listen localhost -bg > /dev/null 2>&1 &
+nohup x11vnc -display :99 -rfbauth /root/.vnc/passwd -rfbport 5900 -forever -listen 0.0.0.0 -bg > /dev/null 2>&1 &
 sleep 1
 nohup websockify --web /opt/novnc 9488 localhost:5900 --heartbeat 30 > /dev/null 2>&1 &
