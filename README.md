@@ -31,7 +31,10 @@ The workflow: start the container, open Godot in the browser, and instruct a bro
 <!--movie-copilot-->
 
 ### Claude in Chrome (Anthropic)
-<!--movie-claude-in-chrome-->
+## Guacamole
+[Chrome Sonnet Guacamole Fail.webm](https://github.com/user-attachments/assets/623bf8ca-c37a-4ec7-b68d-3c33a79ecedf)
+## NoVnc
+[Chrome Sonnet NoVnc Fail.webm](https://github.com/user-attachments/assets/e4450d92-cd44-4687-ae92-6c17302be0ca)
 
 ### Comet (Perplexity)
 <!--movie-comet-->
