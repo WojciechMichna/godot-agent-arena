@@ -28,7 +28,11 @@ The workflow: start the container, open Godot in the browser, and instruct a bro
 ## Demo Videos
 
 ### Copilot (Edge)
-<!--movie-copilot-->
+#### Guacamole
+[Edge Copilot Guacamole Fail.webm](https://github.com/user-attachments/assets/f949dbdc-1b41-4f3a-92fa-576b1edeeb52)
+#### NoVnc
+[Edge Copilot NoVNC Fail.webm](https://github.com/user-attachments/assets/44a28a63-3d1f-4236-b4bd-a8ebd9f61823)
+
 
 ### Claude in Chrome (Anthropic)
 #### Guacamole
@@ -37,10 +41,21 @@ The workflow: start the container, open Godot in the browser, and instruct a bro
 [Chrome Sonnet NoVnc Fail.webm](https://github.com/user-attachments/assets/e4450d92-cd44-4687-ae92-6c17302be0ca)
 
 ### Comet (Perplexity)
-<!--movie-comet-->
+#### Sonnet
+[Comet Sonet NoVnc OK.webm](https://github.com/user-attachments/assets/61bd42e6-2c8b-4805-bd40-c3f948c7ae79)
+#### Gemini
+[Comet Gemini NoVnc OK.webm](https://github.com/user-attachments/assets/360726df-4240-444f-85d9-f81a5cf50c7d)
+#### Sonar
+##### Guacamole
+[Comet Sonar Guacamole OK.webm](https://github.com/user-attachments/assets/5691d212-5519-46ac-9cca-495f7aba1b81)
+##### NoVnc
+[Comet Sonar NoVnc.webm](https://github.com/user-attachments/assets/55c2c270-2c14-457f-999b-b569b476211f)
+
+
 
 ### Running multiple agents in parallel
-<!--movie-parallel-agents-->
+[Parallel execution.webm](https://github.com/user-attachments/assets/84b9bb5c-a215-4ce4-afc0-8b51d4976dbe)
+
 
 ## Key Features
 
